@@ -1,0 +1,4 @@
+Decision Tree Classifier - only tunned parameter was min_samples_split, which showed almost no difference, as based on random division the best parameter changed.
+Random Forest Classifier - the tunned parameters were min_samples_split, bootstrap, with min_samples_split the result was same, however, in all cases bootstrap=True was the best parameter.
+KNNClassifier - tunned parameters were n_neighbours, algorithm, weights, leaf_size and p. For all tests the best algorithm and weights were auto and uniform. n_neighbours had best parameter of 11, leaf_size 10 and p 1.
+SVM - tunned parameter was C, the best result was 1.0.
